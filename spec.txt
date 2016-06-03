@@ -1,0 +1,10 @@
+What is my goal for the project?
+    What do I want it to accomplish?
+    Make it easier for users to create bash commands
+    bash command search tool?
+        Google is better.
+        What do I offer over that?
+        Ability to automatically download bash_profile?
+        I don't know if this is a good idea.
+        I could also design my chess game.
+        Let's build a chess game in javascript. 
