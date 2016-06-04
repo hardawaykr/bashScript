@@ -1,0 +1,21 @@
+input[type=text] {
+    width: 100%;
+    /*position: absolute;
+    top: 50%;
+    bottom: 50%;*/
+    /*margin-top: -5px;
+    margin-left: -200px;*/
+}
+
+input[type=submit] {
+    width: 100%;
+    /*position: absolute;
+    top: 50%;
+    bottom: 50%;*/
+    /*margin-top: -5px;
+    margin-left: -10px;*/
+}
+
+p {
+    color: red;
+}

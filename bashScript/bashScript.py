@@ -12,7 +12,15 @@ def input():
     if query == "help":
         return render_template("help.html")
     else:
-        return abort(404)
+        tokens = query.split(" ")
+        if tokens[0] == 'alias':
+            if len(tokens) == 3:
+                return render_template("alias.html", shortcut=tokens[1],
+                        command=tokens[2])
+            else:
+                abort(404)
+        else:
+            abort(404)
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
