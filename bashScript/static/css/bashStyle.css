@@ -1,21 +1,47 @@
-input[type=text] {
-    width: 100%;
-    /*position: absolute;
-    top: 50%;
-    bottom: 50%;*/
-    /*margin-top: -5px;
-    margin-left: -200px;*/
+    input[type=text] {
+    width: 94.5%;
+    height: 10px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: auto;
 }
 
 input[type=submit] {
-    width: 100%;
-    /*position: absolute;
-    top: 50%;
-    bottom: 50%;*/
-    /*margin-top: -5px;
-    margin-left: -10px;*/
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    width: 15%;
+    transform: translate(-37%);
+    background-color: #E44F2B;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+
 }
 
-p {
-    color: red;
+div {
+    border-radius: 3px;
+    background-color: #E44F2B;
+    padding: 15px;
+    position: absolute;
+    top: 25%;
+    width: 60%;
+    transform: translate(28%);
+}
+
+html {
+    background-color: #1A5970;
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    width: 25%;
+    transform: translate(-22%);
 }
