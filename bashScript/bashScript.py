@@ -1,9 +1,11 @@
 from flask import Flask, abort, request
 from flask import render_template
+from utils import Trie
 app = Flask(__name__)
 
 @app.route("/")
 def home():
+    trie = Trie()
     return render_template("bashScript.html")
 
 @app.route("/input")

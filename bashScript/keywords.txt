@@ -6,7 +6,6 @@ export
 ls
 mv
 rm
-pwd
 pbcopy
 PATH
 Library
